@@ -29,10 +29,10 @@ def heiken_ashi(df):
 def relative_strength_index(df, n=14):
     if df.shape[0] is 0:
         return df.join(pd.Series(name='rsi'))
-    i = 0,
+    i = 0
     UpI = [0]
     DoI = [0]
-    while i + 1 <= df.index[-1]:
+    while i + 1 <= df.shape[0] - 1:
         UpMove = df.loc[i + 1, 'high'] - df.loc[i, 'high']
         DoMove = df.loc[i, 'low'] - df.loc[i + 1, 'low']
         if UpMove > DoMove and UpMove > 0:
