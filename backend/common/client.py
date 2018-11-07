@@ -9,27 +9,34 @@ def get_history(symbol, convertTime=True, days=100, set_date_as_index=False):
     past_ts = str(int(past.timestamp()))
 
     url = "http://api.pse.tools/api/chart/history?symbol={0}&resolution=D&from={1}&to={2}".format(symbol, past_ts, now_ts)
-    response = requests.get(url).json()
 
-    result = pd.Series()
-    if response["s"] == "ok":
-        time_series  = pd.Series(response["t"], name="date")
-        open_series  = pd.Series(response["o"], name="open")
-        high_series = pd.Series(response["h"], name="high")
-        low_series   = pd.Series(response["l"], name="low")
-        close_series = pd.Series(response["c"], name="close")
-        volume_series = pd.Series(response["v"], name="volume")
+    try:
+        response = requests.get(url, timeout=5).json()
+        result = pd.Series()
+        if response["s"] == "ok":
+            time_series  = pd.Series(response["t"], name="date")
+            open_series  = pd.Series(response["o"], name="open")
+            high_series = pd.Series(response["h"], name="high")
+            low_series   = pd.Series(response["l"], name="low")
+            close_series = pd.Series(response["c"], name="close")
+            volume_series = pd.Series(response["v"], name="volume")
 
-        result = pd.concat([time_series, open_series, high_series, low_series, close_series, volume_series], axis=1)
+            result = pd.concat([time_series, open_series, high_series, low_series, close_series, volume_series], axis=1)
 
-        if convertTime:
-            result.date = result.date.apply(convert_unix_time)
-    else:
+            if convertTime:
+                result.date = result.date.apply(convert_unix_time)
+        else:
+            result = pd.DataFrame(columns=["date","open","high","low","close","volume"])
+
+        if set_date_as_index:
+            result['date'] = pd.to_datetime(result['date'])
+            result.set_index('date', inplace=True)
+    except:
         result = pd.DataFrame(columns=["date","open","high","low","close","volume"])
 
-    if set_date_as_index:
-        result['date'] = pd.to_datetime(result['date'])
-        result.set_index('date', inplace=True)
+        if set_date_as_index:
+            result['date'] = pd.to_datetime(result['date'])
+            result.set_index('date', inplace=True)
 
     return result
 
