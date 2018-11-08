@@ -7,7 +7,8 @@ from common import client
 stocks = ['AC','AEV','AGI','ALI','AP','BDO','BPI','DMC','EDC','EMP','FGEN','GLO','GTCAP','ICT','JFC','LTG','MBT','MEG','MER','MPI','PCOR','RLC','SCC','SECB','SM','SMC','SMPH','TEL','URC']
 
 window = 10
-future = 30
+future = 10
+
 x, y = [], []
 
 for stock in stocks:
@@ -42,12 +43,12 @@ for stock in stocks:
         x.append(norm_sample.values)
         i = i + 1
 
-    # convert samples to ndarray
-    x = np.array(x)
-    y = np.array(y)
-
+# convert samples to ndarray
+x = np.array(x)
+y = np.array(y)
 dg = pd.DataFrame(y)
-dg.hist(alpha=0.4,bins=20)
+
+dg.hist(alpha=0.4,bins=200)
 plt.show()
 # next step:
 # return tuple x, y - OK
