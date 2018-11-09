@@ -3,10 +3,14 @@ import pandas as pd
 import quandl as qd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+
+# %% Retrieve the API key from environment varible
+qd.ApiConfig.api_key = os.environ['QUANDL_KEY']
 
 # %%
-start = pd.to_datetime('2012-01-01')
-end   = pd.to_datetime('2017-01-01')
+start = pd.to_datetime('2008-01-01')
+end   = pd.to_datetime('2018-01-01')
 
 aapl  = qd.get('WIKI/AAPL', start_date=start, end_date=end)
 cisco = qd.get('WIKI/CSCO.11',start_date=start, end_date=end)
