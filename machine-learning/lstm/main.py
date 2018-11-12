@@ -6,6 +6,8 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint, TensorBoard
 from time import time
 import os, warnings
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.cross_validation import train_test_split
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # Hide messy TensorFlow warnings
@@ -23,7 +25,7 @@ seq_len = 10
 params = 5
 epochs = 100
 batch_size = 512
-units = 10
+units = 32
 patience = 2
 
 # build the model
@@ -50,9 +52,14 @@ history = model.fit(features_train, targets_train, epochs=epochs, callbacks=call
 
 # history
 #
-# predicted = model.predict(features_test)
-# predicted = np.reshape(predicted, (predicted.size,))
-# predicted
+predicted = model.predict(features_test)
+predicted = np.reshape(predicted, (predicted.size,))
+predicted
+
+gg = pd.DataFrame(targets_test - predicted)
+gg.mean()
+gg.hist(alpha=0.8, bins=100)
+plt.show()
 #
 # import pandas as pd
 # import matplotlib.pyplot as plt
