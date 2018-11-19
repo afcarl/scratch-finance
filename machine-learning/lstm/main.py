@@ -32,12 +32,11 @@ patience = 2
 model = Sequential()
 model.add(LSTM(input_shape=(seq_len, params), output_dim=units, return_sequences=True))
 model.add(Dropout(0.2))
-model.add(LSTM(units, return_sequences=False))
+model.add(LSTM(units, return_sequences=False, activation='relu'))
 model.add(Dropout(0.2))
 model.add(Dense(units, kernel_initializer='lecun_uniform', activation='relu'))
 model.add(Dropout(0.2))
 model.add(Dense(1, kernel_initializer='lecun_uniform', activation='linear'))
-model.add(Activation("linear"))
 model.compile(optimizer='adam',loss='mean_squared_error')
 model.summary()
 
@@ -52,6 +51,7 @@ history = model.fit(features_train, targets_train, epochs=epochs, callbacks=call
 
 # history
 #
+features_test.shape
 predicted = model.predict(features_test)
 predicted = np.reshape(predicted, (predicted.size,))
 predicted
@@ -60,6 +60,8 @@ gg = pd.DataFrame(targets_test - predicted)
 gg.mean()
 gg.hist(alpha=0.8, bins=100)
 plt.show()
+
+model.save("model")
 #
 # import pandas as pd
 # import matplotlib.pyplot as plt
