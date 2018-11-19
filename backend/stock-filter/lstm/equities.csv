@@ -1,0 +1,223 @@
+symbol,name,sector,subsector,psei
+BPI,Bank of the Philippine Islands,Financials,Banks,True
+CHIB,China Banking Corporation,Financials,Banks,False
+PRIM,"Prime Media Holdings, Inc.",Holding Firms,Holding Firms,False
+MBT,Metropolitan Bank & Trust Company,Financials,Banks,True
+PNB,Philippine National Bank,Financials,Banks,False
+PSB,Philippine Savings Bank,Financials,Banks,False
+RCB,Rizal Commercial Banking Corporation,Financials,Banks,False
+SECB,Security Bank Corporation,Financials,Banks,True
+UBP,"Union Bank of the Philippines, Inc.",Financials,Banks,False
+BKR,Bright Kindle Resources & Investments Inc.,Financials,Other Financial Institutions,False
+MFC,Manulife Financial Corporation,Financials,Other Financial Institutions,False
+BLFI,"BDO Leasing and Finance, Inc.",Financials,Other Financial Institutions,False
+SLF,Sun Life Financial Inc.,Financials,Other Financial Institutions,False
+ABS,ABS-CBN Corporation,Services,Media,False
+DFNN,"DFNN, Inc.",Services,Information Technology,False
+GLO,"Globe Telecom, Inc.",Services,Telecommunications,True
+IS,"Island Information & Technology, Inc.",Services,Information Technology,False
+TEL,Philippine Long Distance Telephone Company,Services,Telecommunications,True
+V,"Vantage Equities, Inc.",Financials,Other Financial Institutions,False
+WEB,PhilWeb Corporation,Services,Information Technology,False
+MER,Manila Electric Company,Industrial,"Electricity, Energy, Power & Water",True
+PCOR,Petron Corporation,Industrial,"Electricity, Energy, Power & Water",True
+PHC,Philcomsat Holdings Corporation,Services,Other Services,False
+ICT,"International Container Terminal Services, Inc.",Services,Transportation Services,True
+2GO,"2GO Group, Inc.",Services,Transportation Services,False
+EEI,EEI Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+DAVIN,"Da Vinci Capital Holdings, Inc.",Industrial,"Construction, Infrastructure & Allied Services",False
+HLCM,"Holcim Philippines, Inc.",Industrial,"Construction, Infrastructure & Allied Services",False
+JFC,Jollibee Foods Corporation,Industrial,"Food, Beverage & Tobacco",True
+PF,"San Miguel Pure Foods Company, Inc.",Industrial,"Food, Beverage & Tobacco",False
+MAXS,"Max's Group, Inc.",Industrial,"Food, Beverage & Tobacco",False
+RFM,RFM Corporation,Industrial,"Food, Beverage & Tobacco",False
+SMC,San Miguel Corporation,Holding Firms,Holding Firms,True
+URC,Universal Robina Corporation,Industrial,"Food, Beverage & Tobacco",True
+VITA,Vitarich Corporation,Industrial,"Food, Beverage & Tobacco",False
+ANS,A. Soriano Corporation,Holding Firms,Holding Firms,False
+ACR,"Alsons Consolidated Resources, Inc.",Industrial,"Electricity, Energy, Power & Water",False
+APO,Anglo Philippine Holdings Corporation,Holding Firms,Holding Firms,False
+ABA,"AbaCore Capital Holdings, Inc.",Holding Firms,Holding Firms,False
+ATN,"ATN Holdings, Inc.",Holding Firms,Holding Firms,False
+MARC,"Marcventures Holdings, Inc.",Mining and Oil,Mining,False
+COSCO,"Cosco Capital, Inc.",Holding Firms,Holding Firms,False
+AGI,"Alliance Global Group, Inc.",Holding Firms,Holding Firms,True
+AC,Ayala Corporation,Holding Firms,Holding Firms,True
+AB,"Atok-Big Wedge Co., Inc.",Mining and Oil,Mining,False
+APC,"APC Group, Inc.",Services,Other Services,False
+AEV,"Aboitiz Equity Ventures, Inc.",Holding Firms,Holding Firms,True
+LPZ,Lopez Holdings Corporation,Holding Firms,Holding Firms,False
+BHI,"Boulevard Holdings, Inc.",Services,Hotel & Leisure,False
+BSC,Basic Energy Corporation,Mining and Oil,Oil,False
+PAL,"PAL Holdings, Inc.",Services,Transportation Services,False
+FNI,"Global Ferronickel Holdings, Inc.",Mining and Oil,Mining,False
+CEI,"Crown Equities, Inc.",Property,Property,False
+DMC,"DMCI Holdings, Inc.",Holding Firms,Holding Firms,True
+PAX,"Paxys, Inc.",Services,Other Services,False
+FPH,First Philippine Holdings Corporation,Industrial,"Electricity, Energy, Power & Water",False
+GEO,"GEOGRACE Resources Philippines, Inc.",Mining and Oil,Mining,False
+POPI,"Prime Orion Philippines, Inc.",Holding Firms,Holding Firms,False
+HI,"House of Investments, Inc.",Holding Firms,Holding Firms,False
+ION,"Ionics, Inc.",Industrial,Electrical Components & Equipment,False
+IPO,"iPeople, Inc.",Services,Education,False
+JGS,"JG Summit Holdings, Inc.",Holding Firms,Holding Firms,False
+KPH,"Keppel Philippines Holdings, Inc.",Holding Firms,Holding Firms,False
+MAC,MacroAsia Corporation,Services,Transportation Services,False
+NI,"NiHAO Mineral Resources International, Inc.",Mining and Oil,Mining,False
+MG,"Millennium Global Holdings, Inc.",Services,Information Technology,False
+MEG,Megaworld Corporation,Property,Property,True
+MHC,Mabuhay Holdings Corporation,Holding Firms,Holding Firms,False
+IPM,"IPM Holdings, Inc.",Holding Firms,Holding Firms,False
+CPG,"Century Properties Group, Inc.",Property,Property,False
+SGI,"Solid Group, Inc.",Holding Firms,Holding Firms,False
+LTG,"LT Group, Inc.",Holding Firms,Holding Firms,True
+UNI,"Unioil Resources & Holdings Company, Inc.",Holding Firms,Holding Firms,False
+WPI,"Waterfront Philippines, Incorporated",Services,Hotel & Leisure,False
+WIN,"Wellex Industries, Incorporated",Holding Firms,Holding Firms,False
+BLOOM,Bloomberry Resorts Corporation,Services,Casinos & Gaming,False
+BRN,"A Brown Company, Inc.",Property,Property,False
+MCP,Melco Crown (Philippines) Resorts Corporation,Services,Casinos & Gaming,False
+PMPC,Panasonic Manufacturing Philippines Corporation,Industrial,Electrical Components & Equipment,False
+MVC,Mabuhay Vinyl Corporation,Industrial,Chemicals,False
+PPC,Pryce Corporation,Industrial,Chemicals,False
+SEVN,Philippine Seven Corporation,Services,Retail,False
+BEL,Belle Corporation,Property,Property,False
+LR,Leisure & Resorts World Corporation,Services,Casinos & Gaming,False
+SUN,"Suntrust Home Developers, Inc.",Property,Property,False
+GPH,Grand Plaza Hotel Corporation,Services,Hotel & Leisure,False
+PRC,"Philippine Racing Club, Inc.",Services,Casinos & Gaming,False
+PHA,Premiere Horizon Alliance Corporation,Services,Other Services,False
+ABSP,ABS-CBN Holdings Corporation,Services,Media,False
+CEU,Centro Escolar University,Services,Education,False
+FEU,"Far Eastern University, Incorporated",Services,Education,False
+ALI,"Ayala Land, Inc.",Property,Property,True
+ARA,"Araneta Properties, Inc.",Property,Property,False
+CYBR,Cyber Bay Corporation,Property,Property,False
+CDC,Cityland Development Corporation,Property,Property,False
+CHI,"Cebu Holdings, Incorporated",Property,Property,False
+ELI,"Empire East Land Holdings, Inc.",Property,Property,False
+SHNG,"Shang Properties, Inc.",Property,Property,False
+FLI,"Filinvest Land, Inc.",Property,Property,False
+GERI,"Global-Estate Resorts, Inc.",Property,Property,False
+LAND,"City & Land Developers, Incorporated",Property,Property,False
+MRC,"MRC Allied, Inc.",Property,Property,False
+PHES,Philippine Estates Corporation,Property,Property,False
+RLC,Robinsons Land Corporation,Property,Property,True
+SMPH,"SM Prime Holdings, Inc.",Property,Property,True
+ALCO,Arthaland Corporation,Property,Property,False
+APX,"Apex Mining Co., Inc.",Mining and Oil,Mining,False
+AT,Atlas Consolidated Mining and Development Corporation,Mining and Oil,Mining,False
+AR,Abra Mining and Industrial Corporation,Mining and Oil,Mining,False
+BCB,Benguet Corporation,Mining and Oil,Mining,False
+DIZ,"Dizon Copper-Silver Mines, Inc.",Mining and Oil,Mining,False
+ISM,ISM Communications Corporation,Services,Information Technology,False
+LC,Lepanto Consolidated Mining Company,Mining and Oil,Mining,False
+LCB,Lepanto Consolidated Mining Company,Mining and Oil,Mining,False
+PX,Philex Mining Corporation,Mining and Oil,Mining,False
+STR,"Starmalls, Inc.",Property,Property,False
+UPM,United Paragon Mining Corporation,Mining and Oil,Mining,False
+IMP,"Imperial Resources, Inc.",Services,Information Technology,False
+IRC,"IRC Properties, Inc.",Property,Property,False
+OPM,Oriental Petroleum and Minerals Corporation,Mining and Oil,Oil,False
+OV,The Philodrill Corporation,Mining and Oil,Oil,False
+PA,"Pacifica, Inc.",Holding Firms,Holding Firms,False
+PLC,Premium Leisure Corp.,Services,Casinos & Gaming,False
+VUL,Vulcan Industrial & Mining Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+ABG,Asiabest Group International Inc.,Industrial,"Construction, Infrastructure & Allied Services",False
+BC,Benguet Corporation,Mining and Oil,Mining,False
+BMM,"Bogo Medellin Milling Company, Inc.",Industrial,"Food, Beverage & Tobacco",False
+CA,Concrete Aggregates Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+CAB,Concrete Aggregates Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+CAT,"Central Azucarera de Tarlac, Inc.",Industrial,"Food, Beverage & Tobacco",False
+CIP,"Chemical Industries of the Philippines, Inc.",Industrial,Chemicals,False
+ACE,Acesite (Phils.) Hotel Corporation,Services,Hotel & Leisure,False
+STI,"STI Education Systems Holdings, Inc.",Services,Education,False
+LIHC,Lodestar Investment Holdings Corporation,Holding Firms,Holding Firms,False
+LMG,LMG Chemicals Corporation,Industrial,Chemicals,False
+MBC,Manila Broadcasting Company,Services,Media,False
+MED,"MEDCO Holdings, Inc.",Financials,Other Financial Institutions,False
+BCOR,Berjaya Philippines Inc.,Services,Casinos & Gaming,False
+PTC,Philippine Trust Company,Financials,Banks,False
+SCC,Semirara Mining and Power Corporation,Mining and Oil,Mining,True
+SFI,"Swift Foods, Inc.",Industrial,"Food, Beverage & Tobacco",False
+TFC,PTFC Redevelopment Corporation,Property,Property,False
+VMC,"Victorias Milling Company, Inc.",Industrial,"Food, Beverage & Tobacco",False
+SLI,"Sta. Lucia Land, Inc.",Property,Property,False
+T,TKC Metals Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+PRMX,Primex Corporation,Property,Property,False
+SPC,SPC Power Corporation,Industrial,"Electricity, Energy, Power & Water",False
+BDO,"BDO Unibank, Inc.",Financials,Banks,True
+LBC,"LBC Express Holdings, Inc.",Industrial,"Construction, Infrastructure & Allied Services",False
+NOW,Now Corporation,Services,Information Technology,False
+PERC,PetroEnergy Resources Corporation,Mining and Oil,Oil,False
+MWC,"Manila Water Company, Inc.",Industrial,"Electricity, Energy, Power & Water",False
+SM,SM Investments Corporation,Holding Firms,Holding Firms,True
+FGEN,First Gen Corporation,Industrial,"Electricity, Energy, Power & Water",True
+COL,"COL Financial Group, Inc.",Financials,Other Financial Institutions,False
+FOOD,"Alliance Select Foods International, Inc.",Industrial,"Food, Beverage & Tobacco",False
+EDC,Energy Development Corporation,Industrial,"Electricity, Energy, Power & Water",True
+MPI,Metro Pacific Investments Corporation,Holding Firms,Holding Firms,True
+NRCP,National Reinsurance Corporation of the Philippines,Financials,Other Financial Institutions,False
+VLL,"Vista Land & Lifescapes, Inc.",Property,Property,False
+PNX,"Phoenix Petroleum Philippines, Inc.",Industrial,"Electricity, Energy, Power & Water",False
+AP,Aboitiz Power Corporation,Industrial,"Electricity, Energy, Power & Water",True
+GMA7,"GMA Network, Inc.",Services,Media,False
+ALHI,"Anchor Land Holdings, Inc.",Property,Property,False
+ORE,"Oriental Peninsula Resources Group, Inc.",Mining and Oil,Mining,False
+PIP,"Pepsi-Cola Products Philippines, Inc.",Industrial,"Food, Beverage & Tobacco",False
+ANI,"AgriNurture, Inc.",Industrial,"Food, Beverage & Tobacco",False
+ALT,"Alterra Capital Partners, Inc.","Small, Medium & Emerging Board","Small, Medium & Emerging Board",False
+CPM,Century Peak Metals Holdings Corporation,Mining and Oil,Mining,False
+IMI,"Integrated Micro-Electronics, Inc.",Industrial,Electrical Components & Equipment,False
+CEB,"Cebu Air, Inc.",Services,Transportation Services,False
+NIKL,Nickel Asia Corporation,Mining and Oil,Mining,False
+HOUSE,"8990 Holdings, Inc.",Property,Property,False
+MWIDE,Megawide Construction Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+PXP,Philex Petroleum Corporation,Mining and Oil,Oil,False
+PGOLD,"Puregold Price Club, Inc.",Services,Retail,False
+TECH,Cirtek Holdings Philippines Corporation,Industrial,Electrical Components & Equipment,False
+H2O,Philippine H2O Ventures Corp.,Industrial,"Electricity, Energy, Power & Water",False
+EMP,Emperador Inc.,Industrial,"Food, Beverage & Tobacco",True
+GTCAP,"GT Capital Holdings, Inc.",Holding Firms,Holding Firms,True
+EW,East West Banking Corporation,Financials,Banks,False
+ROCK,Rockwell Land Corporation,Property,Property,False
+CAL,Calata Corporation,Services,Retail,False
+SMC2B,San Miguel Corporation,Holding Firms,Holding Firms,False
+SMC2C,San Miguel Corporation,Holding Firms,Holding Firms,False
+COAL,Coal Asia Holdings Incorporated,Mining and Oil,Mining,False
+APL,"Apollo Global Capital, Inc.",Services,Information Technology,False
+DNL,"D&L Industries, Inc.",Industrial,"Food, Beverage & Tobacco",False
+PBB,Philippine Business Bank,Financials,Banks,False
+AUB,Asia United Bank Corporation,Financials,Banks,False
+DMPL,Del Monte Pacific Limited,Industrial,"Food, Beverage & Tobacco",False
+AGF,"AG Finance, Incorporated",Financials,Other Financial Institutions,False
+TUGS,"Harbor Star Shipping Services, Inc.",Services,Transportation Services,False
+RWM,"Travellers International Hotel Group, Inc.",Services,Casinos & Gaming,False
+RRHI,"Robinsons Retail Holdings, Inc.",Services,Retail,False
+CIC,Concepcion Industrial Corporation,Industrial,Electrical Components & Equipment,False
+FMETF,"First Metro Philippine Equity Exchange Traded Fund, Inc.",ETF-Equity,ETF-Equity,False
+LRW,Leisure & Resorts World Corporation,Services,Casinos & Gaming,False
+TFHI,"Top Frontier Investment Holdings, Inc.",Holding Firms,Holding Firms,False
+DD,DoubleDragon Properties Corp.,Property,Property,False
+CNPF,"Century Pacific Food, Inc.",Industrial,"Food, Beverage & Tobacco",False
+TAPET,Trans-Asia Petroleum Corporation,Mining and Oil,Oil,False
+PRF2B,Petron Corporation,Industrial,"Electricity, Energy, Power & Water",False
+SSI,"SSI Group, Inc.",Services,Retail,False
+PSPC,Phoenix Semiconductor Philippines Corp.,Industrial,Electrical Components & Equipment,False
+X,Xurpas Inc.,"Small, Medium & Emerging Board","Small, Medium & Emerging Board",False
+MWP,Megawide Construction Corporation,Industrial,"Construction, Infrastructure & Allied Services",False
+FPHPC,First Philippine Holdings Corporation,Industrial,"Electricity, Energy, Power & Water",False
+CROWN,Crown Asia Chemicals Corporation,Industrial,Chemicals,False
+SBS,SBS Philippines Corporation,Services,Other Services,False
+SMC2D,San Miguel Corporation,Holding Firms,Holding Firms,False
+MRSGI,"Metro Retail Stores Group, Inc.",Services,Retail,False
+IDC,Italpinas Development Corporation,"Small, Medium & Emerging Board","Small, Medium & Emerging Board",False
+SMC2I,San Miguel Corporation,Holding Firms,Holding Firms,False
+HVN,"Golden Haven Memorial Park, Inc.",Services,Other Services,False
+CHP,"Cemex Holdings Philippines, Inc.",Industrial,"Construction, Infrastructure & Allied Services",False
+DDPR,Doubledragon Properties Corp.,Property,Property,False
+GTPPA,"GT Capital Holdings, Inc.",Holding Firms,Holding Firms,False
+GTPPB,"GT Capital Holdings, Inc.",Holding Firms,Holding Firms,False
+SHLPH,Pilipinas Shell Petroleum Corporation,Industrial,"Electricity, Energy, Power & Water",False
+ALCPB,Arthaland Corporation,Property,Property,False
+PIZZA,"Shakey's Pizza Asia Ventures, Inc.",Industrial,"Food, Beverage & Tobacco",False
