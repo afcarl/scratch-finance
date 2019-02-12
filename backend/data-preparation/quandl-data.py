@@ -56,8 +56,8 @@ for stock in stocks:
             norm_sample = norm_equity.join(norm_volume)
             x.append(norm_sample.values)
             i = i + 1
-    except:
-        print("Error.")
+    except Exception as e:
+        print(e)
 
 # convert samples to ndarray
 x = np.array(x)
